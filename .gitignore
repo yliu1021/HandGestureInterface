@@ -1,0 +1,11 @@
+# MacOS
+.DS_Store
+
+# PyCharm
+.idea/
+
+# Emacs
+*~
+
+# Python
+__pycache__/
