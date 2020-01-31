@@ -1,8 +1,8 @@
-#Hand Gesture Interface#
+#Hand Gesture Interface
 
 Using machine learning to power intuitive human computer interfaces.
 
-##Getting Started##
+##Getting Started
 
 Hand Gesture Interface requires Python 3 to be installed and a working webcam. Currently, only MacOS is supported but support for Windows and Linux is coming soon.
 
@@ -10,6 +10,6 @@ After downloading, simply double click the ```run``` script. It will automatical
 
 If you wish to uninstall, simply delete the folder that the ```run``` script is in. There's no need to delete any other packages.
 
-##Contributing##
+##Contributing
 
 Contributions are welcome! Feel free to fork/pull request any changes.
