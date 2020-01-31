@@ -5,8 +5,8 @@ cd "$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 if [[ ! -d "venv" ]]; then
   echo "Performing first time setup... this might take a few minutes but will only be done once"
   echo "Creating Python Environment..."
-  virtualenv -p $(which python3) venv > /dev/null
-  source venv/bin/activate
+  virtualenv -p $(which python3) .venv > /dev/null
+  source .venv/bin/activate
   echo "Done"
 
   echo "Installing required pip packages..."
@@ -14,7 +14,7 @@ if [[ ! -d "venv" ]]; then
   echo "Done"
 else
   echo "Found Existing Python environment"
-  source venv/bin/activate
+  source .venv/bin/activate
 fi
 
 echo "Starting..."
