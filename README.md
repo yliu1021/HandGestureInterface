@@ -10,6 +10,19 @@ After downloading, simply double click the ```run``` script. It will automatical
 
 If you wish to uninstall, simply delete the folder that the ```run``` script is in. There's no need to delete any other packages.
 
+## How To Use
+Once the run script displays "Started inference loop", you can begin using hand gestures.
+
+### Supported Gestures
+So far, only 12 gestures are supported.
+
+Four of these are swiping with your whole hand left or right (for switching desktops) and up or down.
+You may also swipe up/down/left/right with two or one finger for scrolling.
+
+Zooming in and our with full hand will initiate a zoom in/zoom out on the application you're currently running.
+
+Pushing hand in or away will either reveal desktop or show your installed apps.
+
 ## Contributing
 
 Contributions are welcome! Feel free to fork/pull request any changes.
