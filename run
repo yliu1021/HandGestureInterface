@@ -10,7 +10,7 @@ if [[ ! -d "venv" ]]; then
   echo "Done"
 
   echo "Installing required pip packages..."
-  pip install numpy tensorflow opencv-python pyautogui > /dev/null
+  pip install -r requirements.txt > /dev/null
   echo "Done"
 else
   echo "Found Existing Python environment"
