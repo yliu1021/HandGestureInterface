@@ -1,4 +1,4 @@
-numpy==1.18.1
-opencv-python==4.2.0.32
-PyAutoGUI==0.9.48
-tensorflow==2.5.1
+numpy==1.19.5
+opencv-python==4.5.3.56
+PyAutoGUI==0.9.53
+tensorflow==2.6.0

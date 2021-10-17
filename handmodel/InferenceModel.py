@@ -7,7 +7,7 @@ from queue import Queue
 from threading import Thread
 
 import numpy as np
-os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3' 
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 from tensorflow.keras.models import load_model
 import cv2
 
